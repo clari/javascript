@@ -1,17 +1,19 @@
-module.exports = {
+exports.default = {
   presets: [
-    require('babel-preset-react'),
-    require('babel-preset-es2015'),
-    require('babel-preset-stage-0'),
+    'babel-preset-es2015',
+    'babel-preset-stage-0',
+    'babel-preset-react',
   ],
   plugins: [
-    require('babel-plugin-transform-decorators-legacy'),
+    'babel-plugin-transform-decorators-legacy',
   ],
   env: {
     development: {
       presets: [
-        require('babel-preset-react-hmre'),
+        'babel-preset-react-hmre',
       ],
     },
   },
 };
+
+module.exports = exports.default;
