@@ -6,6 +6,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    'global-require': 'off',
     'import/no-extraneous-dependencies': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/heading-has-content': 'off',
@@ -15,6 +16,7 @@ module.exports = {
     'max-len': 'off',
     'no-trailing-spaces': 'off',
     'no-underscore-dangle': 'off',
+    'react/no-unused-prop-types': 'off',
     'react/require-default-props': 'off',
   },
 };

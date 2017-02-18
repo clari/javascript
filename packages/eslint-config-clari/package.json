@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-clari",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Clari's ESLint config",
   "repository": "clari/frontend",
   "license": "MIT",
