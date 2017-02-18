@@ -13,10 +13,12 @@ module.exports = {
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/img-has-alt': 'off',
     'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': 'off',
     'no-trailing-spaces': 'off',
     'no-underscore-dangle': 'off',
     'react/no-unused-prop-types': 'off',
     'react/require-default-props': 'off',
+    'react/sort-comp': 'off',
   },
 };

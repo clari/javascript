@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-clari",
-  "version": "0.1.2",
+  "version": "0.1.4-alpha.2",
   "description": "Clari's ESLint config",
   "repository": "clari/frontend",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "index.js"
   ],
   "dependencies": {
+    "babel-eslint": "^7.1.1",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
