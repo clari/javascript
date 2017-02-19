@@ -17,6 +17,7 @@ module.exports = {
     'max-len': 'off',
     'no-trailing-spaces': 'off',
     'no-underscore-dangle': 'off',
+    'react/forbid-prop-types': 'off',
     'react/no-unused-prop-types': 'off',
     'react/require-default-props': 'off',
     'react/sort-comp': 'off',
