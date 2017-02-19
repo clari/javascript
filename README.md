@@ -9,5 +9,3 @@ Contents
 References
 ---
 - [Airbnb](https://github.com/airbnb/javascript)
-
-test
