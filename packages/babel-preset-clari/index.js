@@ -1,6 +1,8 @@
 exports.default = {
   presets: [
-    'babel-preset-es2015',
+    ['babel-preset-es2015', {
+      modules: false,
+    }],
     'babel-preset-stage-0',
     'babel-preset-react',
   ],
