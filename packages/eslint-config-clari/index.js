@@ -7,7 +7,9 @@ module.exports = {
   },
   rules: {
     'global-require': 'off',
+    'import/no-dynamic-require': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/heading-has-content': 'off',
     'jsx-a11y/href-no-hash': 'off',
