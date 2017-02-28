@@ -9,6 +9,8 @@ module.exports = {
     'global-require': 'off',
     'import/no-dynamic-require': 'off',
     'import/no-extraneous-dependencies': 'off',
+    // allow export and export default for connected component tests
+    'import/no-named-as-default': 'off',
     'import/prefer-default-export': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/heading-has-content': 'off',

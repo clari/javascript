@@ -15,6 +15,11 @@ exports.default = {
         'babel-preset-react-hmre',
       ],
     },
+    test: {
+      plugins: [
+        'babel-plugin-transform-es2015-modules-commonjs',
+      ],
+    },
   },
 };
 
