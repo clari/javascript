@@ -27,6 +27,8 @@ module.exports = {
     'jsx-a11y/label-has-for': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': 'off',
+    // allow else return for symmetry
+    'no-else-return': 'off',
     // allow return assign for refs
     'no-return-assign': 'off',
     'no-trailing-spaces': 'off',
