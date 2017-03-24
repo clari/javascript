@@ -29,6 +29,7 @@ module.exports = {
     'max-len': 'off',
     // allow else return for symmetry
     'no-else-return': 'off',
+    'no-plusplus': 'off',
     // allow return assign for refs
     'no-return-assign': 'off',
     'no-trailing-spaces': 'off',
